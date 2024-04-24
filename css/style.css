@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist",sans-serif;
+}
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#C850C0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Lexend Deca',sans-serif;
+    color:var(--bs-dark-color);
+}
+h1{
+    font-size:3.0rem;
+    color: var(--bs-main-color);
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+margin: 0;
+font-weight: 400;
+font-size: 0.8rem;
+/* color:var(--bs-dark-color); */
+color: rgb(200, 194, 194);
+letter-spacing: 0.07rem;
+line-height: 1.55rem;
+
+}
+
+
+a{
+    text-decoration: none;
+   
+}
+/* a .navbar {
+font-size: x-large;
+} */
+
+li{
+    list-style: none;
+
+}
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+
+
+
+/* hero section start */
+.hero-image-section{
+max-width: 100%;
+height: auto;
+width:27rem;
+border-radius: 2.5rem;
+
+}
+
+.hero-section .container{
+display: grid;
+place-content: center;
+height: inherit;
+
+}
+
+/* desiging main whole section by class .bg-main,.bg-color */
+.bg-main{
+    height: 80vh;
+    position:relative;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+/* background set by shapedivider app */
+.custom-shape-divider-bottom-1705909070 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1705909070 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1705909070 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*  button style */
+button,a{
+    font-size:1.00rem !important;
+    letter-spacing: 0.08rem; 
+    /* space b/t two words */
+    word-spacing:.1rem;
+}
+
+/* service section */
+
+.common-heading{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+.service-section{
+    padding: 6rem o 3rem 0 !important;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height:2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+}
+
+.card-box:hover{
+box-shadow:rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+
+/* more info digital product section */
+.more-info-section{
+
+    background-attachment: fixed;
+    /* background-image: linear-gradient(rgba(22,22,22,0,9)), rgba((22,22,22,0,9)),url("C:\Users\singh\OneDrive\Desktop\ATUL-HOME-PROJECTS\Bootstrap5\page1\img\3D Texturing (HD).png"); */
+    background-image: linear-gradient(rgba(22,22,22,0,9)), rgba((22,22,22,0,9));
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    padding: 6rem 0;
+    overflow: hidden;
+
+}
+
+/* NWRKNG  */
+
+/* .more-info-section .img-section{
+position: relative;
+}
+
+.more-info-section .img-section img{
+    position: absolute;
+    left: 0;
+    width:70%
+} */
+
+/*  */
+
+.img-bottom{
+    width: 350px!important;
+}
